@@ -1,0 +1,27 @@
+.todo-form{
+    display: flex;
+    justify-content: center;
+}
+
+.todo-input{
+    color: #ffffff;
+    background-color: #010001;
+    height: 2rem;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border-width: thin;
+    outline: none !important;
+}
+
+.todo-input:focus{
+    border-color: #ffffff;
+    border-radius: 5px;
+    outline: none !important;
+}
+
+.todo-add-btn{
+    background-color:#F5B072;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px ;
+}

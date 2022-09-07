@@ -9,8 +9,8 @@
   color: white;
 }
 
-.todo{
-  background-color: #ffe5b4;
+.todo-app{
+  background-color: #E2AE7E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,4 +22,13 @@
 
 .todo-title{
   font-family: 'Qwitcher Grypen', cursive;
+  text-align: center;
+}
+
+.todo-container{
+  background-color: #282c34;
+  width: 25rem;
+  height: 30rem;
+  box-shadow: 0 4px 8px 0 #202c45, 0 6px 20px 0 #202c45;
+  border-radius: 25px;
 }

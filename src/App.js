@@ -8,10 +8,12 @@ function App() {
   const [todos,setTodos] = useState([]);
 
   return (
-    <div className='todo' >
-      <h1 className='todo-title'>Todo-List</h1>
-      <TodoForm todos={todos} setTodos={setTodos}/>
-      <TodoList todos={todos} setTodos={setTodos}/>
+    <div className='todo-app' >
+      <div className='todo-container'>
+        <h1 className='todo-title'>Todo-List</h1>
+        <TodoForm todos={todos} setTodos={setTodos}/>
+        <TodoList todos={todos} setTodos={setTodos}/>
+      </div>
     </div> 
   );
 }

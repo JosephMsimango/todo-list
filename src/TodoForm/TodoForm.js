@@ -23,6 +23,7 @@ const TodoForm = ({setTodos,todos}) => {
                         complete:false
                     }
                 )}
+                autofocus
             />
             <button 
                 className='todo-add-btn' 
