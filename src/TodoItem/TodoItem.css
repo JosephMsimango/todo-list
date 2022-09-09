@@ -1,3 +1,25 @@
-.todo-item{
-    display: flex;
+.fa-check-square{
+    background-color: #F5B072;
+    border-radius: 4px;
+    color: #282c34;
+    font-size:20px;
+}
+.fa-square{
+    font-size:20px;
+}
+.todo-name{
+    font-size: 15px;
+}
+
+.fa-trash-alt{
+    color: #F5B072;
+    font-size:20px;
+}
+
+.todo-name-line-through{
+    text-decoration: line-through;
+    color:grey;
+    opacity: 0.4;
+    font-size: 15px;
+
 }
